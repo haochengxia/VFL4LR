@@ -1,3 +1,6 @@
+# Customized
+/data/adult/a8a*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
