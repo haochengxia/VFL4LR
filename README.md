@@ -6,10 +6,12 @@ Vertical Federated Learning Implementation for Logistic regression (The Simplest
 
 ```mermaid
 graph LR;
-    Client ==Send embedding data==>Server;
-    Server ==Send grads w.r.t. embedding data==> Client;
-    Client ==Update local model==> Client;
-    Server ==Calulate grads and update global model==> Server;
+    Client1 ==Send embedding data==>Server;
+    Server ==Send grads w.r.t. embedding data==> Client1;
+    Client1 ==Update the local model==> Client1;
+    Server ==Calculate grads and update the global model==> Server;
+    Client2
+    Client...
 ```
 
 Notice: Without Regard To Pravicy Preserving (which means that use [DP](https://en.wikipedia.org/wiki/Differential_privacy), [FE](https://en.wikipedia.org/wiki/Functional_encryption), [FHE](https://en.wikipedia.org/wiki/Homomorphic_encryption), and so forth to protect embeding data or grads in transfering process)
