@@ -1,10 +1,8 @@
-from typing import List
 from src import *
 
 # load data
 file_name = 'adult'
 X_train, Y_train, X_test, Y_test = load_data(file_name)
-
 
 # config
 config = dict()
@@ -31,4 +29,4 @@ server.attach_clients(clients)
 
 # Train and Evaluation
 vfl_lr_train(server, clients)
-eval(server, clients)
+evaluation(server, clients)
