@@ -14,7 +14,7 @@ graph LR;
     Client...
 ```
 
-Notice: Without Regard To Pravicy Preserving (which means that use [DP](https://en.wikipedia.org/wiki/Differential_privacy), [FE](https://en.wikipedia.org/wiki/Functional_encryption), [FHE](https://en.wikipedia.org/wiki/Homomorphic_encryption), and so forth to protect embeding data or grads in transfering process)
+Notice: Without Regard To Privacy Preserving (which means that use [DP](https://en.wikipedia.org/wiki/Differential_privacy), [FE](https://en.wikipedia.org/wiki/Functional_encryption), [FHE](https://en.wikipedia.org/wiki/Homomorphic_encryption), and so forth to protect embeding data or grads in transfering process)
 
 ## Prerequisites
 
